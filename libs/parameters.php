@@ -13,9 +13,9 @@
  * @link http://url.com
  */
 $server = "127.0.0.1";
-$user = "examen";
-$pswd = "essenHypB4nk";
-$database = "examen";
+$user = "carro";
+$pswd = "luis12345";
+$database = "carro";
 $port = "3306";
 
 $emailHost = 'email-smtp.us-west-2.amazonaws.com';
@@ -23,7 +23,7 @@ $smtpUser = 'amazonwebuserkey';
 $smtpSecret = 'smtpscreteer';
 $smtpPort = "587";
 
-$host_server = 'http://localhost/examen/';
+$host_server = 'http://localhost/carro/';
 if (isset($_SERVER["SERVER_MVC"])) {
     $host_server = $_SERVER["SERVER_MVC"];
 }
